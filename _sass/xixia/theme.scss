@@ -3,7 +3,10 @@ html {
 }
 
 body {
-    background: url(/assets/images/altitude-clouds-cold-933054.png) no-repeat; background-attachment:fixed;
+    background-color: #7C7585;
+    background-image: url(/assets/images/altitude-clouds-cold-933054.png);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
     background-size: cover;
     padding-top: 60px;
     height:100%;
