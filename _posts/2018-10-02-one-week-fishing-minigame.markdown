@@ -22,10 +22,13 @@ From there the player would need to rotate the left stick while tapping either X
 In total I managed to implement a simplified version everything other than the stick rotation to reel. The final version I have of this game also has nothing happening once the player wins the minigame.
 
 ### You Learn From Your Mistakes
-##### SQLite
+
+#### SQLite
+
 During this brief development time I learned how to set up an SQLite database in Unity from a [great guide](https://ornithoptergames.com/how-to-set-up-sqlite-for-unity/) I came across. From this I have started writing my own SQLite library for Unity which you can find [here](https://github.com/bwy-dev/SQLiteUnity3D) , I will be writing about it soon.
 
-##### Return Values from a Coroutine
+#### Return Values from a Coroutine
+
 Grabbing a value from a Coroutine can be a pain because returning an `IEnumerator` is a requirement for them. Thankfully Lambda Expressions can help us with that:
 
 Simply take a `System.Action<>` as an argument:
