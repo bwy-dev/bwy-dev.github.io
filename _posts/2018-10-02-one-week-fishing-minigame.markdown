@@ -2,7 +2,7 @@
 layout: post
 title:  "Fishing Minigame in 1 Week"
 categories: Game-Dev
-tags: Game-a-Week Game-Development UnityEngine fishing minigame
+tags: Game-a-Week Game-Development UnityEngine minigame Lambda-Expressions Coroutines SQLite
 description: So second week into my game a week project and I have failed to end with a playable game...
 ---
 
