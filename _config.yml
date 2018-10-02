@@ -1,7 +1,7 @@
 # Jekyll configuration
 
 name: BWY-Dev
-description: Welcome to BWY-Dev！
+description: Programming/Game-Dev Blog.
 
 # url is currently only used only for the RSS feed in feed.xml
 url: https://github.com/bwy-dev
