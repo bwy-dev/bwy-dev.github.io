@@ -33,8 +33,6 @@ During this brief development time I learned how to set up an SQLite database in
 
 #### Return Values from a Coroutine
 
-&nbsp;
-
 Grabbing a value from a Coroutine can be a pain because returning an `IEnumerator` is a requirement for them. Thankfully Lambda Expressions can help us with that:
 
 Simply take a `System.Action<>` as an argument:
