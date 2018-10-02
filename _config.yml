@@ -24,6 +24,8 @@ paginate: 8
 
 highlighter: rouge
 markdown: kramdown
-plugins: ['jekyll-paginate']
+plugins: 
+  - jekyll-paginate
+  - jekyll-seo-tag
 
 exclude: ['README.md', 'LICENSE', "*.bak"]
