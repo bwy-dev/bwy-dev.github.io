@@ -43,7 +43,7 @@ This article will go through a full step by step guide to get Pygments working o
 
 - open your `Gemfile` and add these two gems:
 
-```Ruby
+```ruby
 gem 'redcarpet'
 gem 'pygments.rb'
 ``` 
