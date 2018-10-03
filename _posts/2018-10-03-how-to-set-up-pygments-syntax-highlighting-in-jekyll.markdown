@@ -9,7 +9,7 @@ description: I recently decided that the default syntax highlighting with Jekyll
 
 I recently decided that the default syntax highlighting with Jekyll was a bit plain, and wanted to look into customizing it for this wesite but struggled find all of the necessary information in one place. As a reasult I thought it would be a good idea to write this guide.
 
-> *note: Pygments alters the markdown syntax highlighting in triple backtick/indented code blocks, if you are using liquid based highlighting, like that found on the default jekyll welcome page then this will have no effect*
+> *note: Pygments is currently not supported by Github Pages and since writing this article I have switched back to rouge*
 
 &nbsp;
 
