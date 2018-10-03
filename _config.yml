@@ -23,7 +23,7 @@ lan: "en"
 paginate: 8
 
 markdown: redcarpet 
-highlighter: rouge
+highlighter: pygments
 redcarpet:
    extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 
