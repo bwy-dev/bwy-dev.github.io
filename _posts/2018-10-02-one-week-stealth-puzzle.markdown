@@ -2,6 +2,7 @@
 layout: post
 title:  "Stealth Puzzle Game in 1 Week"
 categories: Game-Dev
+comments: true
 tags: Game-a-Week Game-Development UnityEngine stealth puzzle game
 description: This was the first game of my game a week project. All things told it was a bit of a failure in terms of actual gameplay...
 ---
