@@ -131,6 +131,6 @@ Now we have the Pygments stylesheet referenced in our `main.css` file, but that 
 ```
 ------
 > ![code highlighting on default jekyll post]({{site.url}}/assets/images/jekyll_code_highlight_example.png)
->#####*here is the default welcome post with a shiny new Pygment code box*
+> *here is the default welcome post with a shiny new Pygment code box*
 
 And with that you should have easy to edit syntax highlighting for your code blocks! These make all the difference in making the site look that bit nicer, and adding a bit of color to an otherwise somewhat plain markdown code blocks.
