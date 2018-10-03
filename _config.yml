@@ -22,8 +22,11 @@ lan: "en"
 
 paginate: 8
 
-highlighter: rouge
-markdown: kramdown
+markdown: redcarpet 
+highlighter: pygments 
+redcarpet:
+   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+
 plugins: 
   - jekyll-paginate
   - jekyll-seo-tag

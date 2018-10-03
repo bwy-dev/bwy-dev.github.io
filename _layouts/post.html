@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<link rel=”stylesheet” href=”http://blog.championswimmer.in/assets/css/pygments/solarized-light.css">
 {% assign trans = site.data.values[site.lan] %}
 <div class="well article">
         <h2><a href="{{ site.baseurl}}{{ page.url }}">{{ page.title }}</a></h2>
@@ -73,7 +74,7 @@ layout: default
     </div>
     {% if page.comments %}
         {% if site.disqus != '' %}
-        
+
           <script type="text/javascript">
             var disqus_shortname = '{{ site.disqus }}';
 

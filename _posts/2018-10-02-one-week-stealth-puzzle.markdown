@@ -15,13 +15,14 @@ description: This was the first game of my game a week project. All things told 
 This was the first game of my game a week project. All things told it was a bit of a failure in terms of actual gameplay, however I learned a lot from the experience.
 
 ## How to play:
+
 &nbsp;
 
 You play as a suspiciously mobile orange box (or the contents therein) , get to the green victory square without entering the line of site of the security guards! You can move to any adjacent panel by clicking on it, and wait a turn by clicking on the panel you currently occupy.
 
 
 ## A post-mortem:
-&nbsp;
+
 &nbsp;
 
 ### The pros:

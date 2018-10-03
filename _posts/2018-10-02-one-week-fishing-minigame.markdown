@@ -38,7 +38,7 @@ Grabbing a value from a Coroutine can be a pain because returning an `IEnumerato
 
 Simply take a `System.Action<>` as an argument:
 
-{% highlight c# %}
+```c#
 public IEnumerator StartMinigame(KeyCode fishingKey = KeyCode.Space, System.Action<bool> callback = null)
 {
 	while (true)
@@ -56,20 +56,20 @@ public IEnumerator StartMinigame(KeyCode fishingKey = KeyCode.Space, System.Acti
 		yield return new WaitForEndOfFrame();
 	}
 }
-{% endhighlight %}
+```
 
 *(please ignore the casual `while(true)` , I was being lazy)*
 
 Then when starting the Coroutine use a Lambda Expression where the `System.Action<>` argument is taken:
 
-{% highlight c# %}
+```c#
 bool recievedInput;
 
 StartCoroutine(input.StartMinigame(KeyCode.Space, (returnValue) =>
 {
 	recievedInput = returnValue;
 }));
-{% endhighlight %}
+```
 
 This method can be useful for maintaining nicer code. It would be possible to achieve the same thing by referencing the main script in the input script, and then doing something like `main.recievedInput = true;` but that doesn't feel right.
 
