@@ -9,7 +9,7 @@ description: I recently decided that the default syntax highlighting with Jekyll
 
 I recently decided that the default syntax highlighting with Jekyll was a bit plain, and wanted to look into customizing it for this wesite but struggled find all of the necessary information in one place. As a reasult I thought it would be a good idea to write this guide.
 
-> *note: Pygments is currently not supported by Github Pages, despite this it seems to run perfectly fine, but it is worth noting nonetheless*
+> *note: Pygments is currently not supported by Github Pages and it will default to rogue highlighter. However the styles used in this guide will still work for rogue too, and hopefully Pygments support will come soon.*
 
 &nbsp;
 
