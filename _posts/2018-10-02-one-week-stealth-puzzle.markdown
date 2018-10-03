@@ -7,6 +7,8 @@ tags: Game-a-Week Game-Development UnityEngine stealth puzzle game
 description: This was the first game of my game a week project. All things told it was a bit of a failure in terms of actual gameplay...
 ---
 
+> ![Game Screenshot]({{site.url}}/assets/images/Stealth_Puzzle.png)
+
 # [Check out the game on Github!](https://github.com/bwy-dev/1weekpuzzle)
 &nbsp;
 
