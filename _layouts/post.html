@@ -72,14 +72,13 @@ layout: default
 
     </div>
     {% if page.comments %}
-        {% if site.disqus != '' %}
     <div id="disqus_thread">
         <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
         <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
     </div>
+    {% include disqus-comments.html %}
         {% elsif site.isso != '' %}
         <section id="isso-thread"></section>
-        {% endif %}
     {% endif %}
 </div>
 <div class="pagination">
